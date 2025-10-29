@@ -1,5 +1,5 @@
 {
-  "name": "club-el-globo---management-system",
+  "name": "club-el-globo-management-system",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "rxjs": "^7.8.2",
-    "@angular/compiler": "^20.3.0",
-    "@angular/platform-browser": "^20.3.0",
+    "@angular/router": "^20.3.5",
     "@angular/core": "^20.3.0",
+    "@angular/platform-browser": "^20.3.0",
+    "@angular/forms": "^20.3.5",
+    "@angular/compiler": "^20.3.0",
     "@angular/common": "^20.3.0",
     "@angular/build": "^20.3.0",
     "@angular/cli": "^20.3.0",

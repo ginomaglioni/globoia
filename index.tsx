@@ -1,12 +1,17 @@
-import '@angular/compiler';
+
 import { bootstrapApplication } from '@angular/platform-browser';
-import { provideZonelessChangeDetection } from '@angular/core';
+import { provideRouter, withHashLocation } from '@angular/router';
+import { provideZonelessChangeDetection, importProvidersFrom } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 
-import { AppComponent } from './src/app.component';
+import { AplicacionComponent } from './src/aplicacion.component';
+import { APP_ROUTES } from './src/app.routes';
 
-bootstrapApplication(AppComponent, {
+bootstrapApplication(AplicacionComponent, {
   providers: [
     provideZonelessChangeDetection(),
+    provideRouter(APP_ROUTES, withHashLocation()),
+    importProvidersFrom(ReactiveFormsModule),
   ],
 }).catch((err) => console.error(err));
 

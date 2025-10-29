@@ -1,5 +1,5 @@
 {
-  "name": "Club El Globo - Management System",
-  "description": "A web application for the administration of members, activities, and billing for the 'El Globo' sports club. It provides tools for managing member data, tracking payments, and organizing sports activities.",
+  "name": "Club El Globo Management System",
+  "description": "A web application for managing members, activities, lockers, and billing for Club El Globo, as per the provided project specifications. This system is designed for Administrator/Staff use.",
   "requestFramePermissions": []
 }
